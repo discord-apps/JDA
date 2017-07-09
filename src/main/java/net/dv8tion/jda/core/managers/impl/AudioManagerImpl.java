@@ -148,7 +148,7 @@ public class AudioManagerImpl implements AudioManager, Disposable
     @Override
     public JDA getJDA()
     {
-        return guild.getJDA();
+        return getGuild().getJDA();
     }
 
     @Override
